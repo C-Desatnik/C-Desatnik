@@ -1,7 +1,12 @@
   <html>
   <head>
+ <style>
+   body {
+     background-color:black;
+   }
+   </style>
   </head>
-  <body>
+    <body>
 <form action="index.html">
       <center><button type="submit" class="button">HOME</button></center>
        </form>
