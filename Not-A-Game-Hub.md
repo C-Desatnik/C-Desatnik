@@ -17,7 +17,7 @@
       <center><button type="submit" class="button" class="TS">HOME</button></center>
        </form>
       <br>
-   <center><a href="https://www.freeonlinegames.com/?ref=icon"> <button>FOG</button> </a></center>
+   <center><a href="#tetris" data-game="tetris"><button>Tetris</button></a></center>
       <br>
       <center><a class="BS" href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
       <center><div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
