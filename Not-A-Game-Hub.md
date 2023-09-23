@@ -20,8 +20,8 @@
    <center><a href="https://www.freeonlinegames.com/?ref=icon"> <button>FOG</button> </a></center>
       <br>
       <center><a class="BS" href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
-      <div>
-<center><script src="https://neal.fun/"></script></center>
-</div>
+      <center><div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
+    <iframe id="embededGame" src="https://idev.games/embed/galactic-wars" scrolling="no" seamless="seamless" frameBorder="0" style="position: absolute;top:0;left: 0;width: 100%;height: 100%;">Browser not compatible.</iframe>
+</div></center>
   </body>
   </html>
