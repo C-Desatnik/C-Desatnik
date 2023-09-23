@@ -2,12 +2,12 @@
   <head>
   </head>
   <body>
-  <nav>
-  <center><button onclick = "window.location.href="index.html";>Home</button></center>
-  </nav>
+<form action="index.html">
+      <center><button type="submit" class="button">HOME</button></center>
+       </form>
     <br>
-    <p>
-    <button onclick = "window.location.href="https://www.freeonlinegames.com/?ref=icon";>FOG</button>
-    </p>
+    <form action="https://www.freeonlinegames.com/?ref=icon">
+      <center><button type="submit" class="button">FOG</button></center>
+    </form>
   </body>
   </html>
