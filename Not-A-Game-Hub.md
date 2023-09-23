@@ -7,6 +7,9 @@
    .TS{
      margin-top:50px;
    }
+   .BS{
+     margin-bottom:100px;
+   }
    </style>
   </head>
     <body>
@@ -16,7 +19,7 @@
       <br>
    <center><a href="https://www.freeonlinegames.com/?ref=icon"> <button>FOG</button> </a></center>
       <br>
-      <center><a href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
+      <center><a class="BS" href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
       <div>
 <center><script src="https://cdn.htmlgames.com/embed.js?game=TetrisFun&amp;bgcolor=white"></script></center>
 </div>
