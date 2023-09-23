@@ -17,6 +17,7 @@
 <form action="index.html">
       <center><button type="submit" class="button" class="TS">HOME</button></center>
 </form>
+<br>
          <form action="tetris.html">
       <center><button type="submit" class="button" class="TS">TETRIS</button></center>
        </form>
