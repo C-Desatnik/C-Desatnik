@@ -21,7 +21,7 @@
       <br>
       <center><a class="BS" href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
       <div>
-<center><script src="https://cdn.htmlgames.com/embed.js?game=TetrisFun&amp;bgcolor=white"></script></center>
+<center><script src="https://neal.fun/"></script></center>
 </div>
   </body>
   </html>
