@@ -11,6 +11,7 @@
 <form action="index.html">
       <center><button type="submit" class="button">HOME</button></center>
        </form>
+      <br>
    <center><a href="https://www.freeonlinegames.com/?ref=icon"> <button>FOG</button> </a></center>
   </body>
   </html>
