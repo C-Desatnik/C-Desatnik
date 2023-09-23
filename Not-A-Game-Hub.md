@@ -12,5 +12,7 @@
        </form>
       <br>
    <center><a href="https://www.freeonlinegames.com/?ref=icon"> <button>FOG</button> </a></center>
+      <br>
+      <center><a href="https://www.kanogames.com/profile/developer/bored-dot-com"> <button>Bored</button> </a></center>
   </body>
   </html>
