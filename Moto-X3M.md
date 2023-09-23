@@ -3,11 +3,11 @@
   </head>
   <body>
   <nav>
-  <center><a href="./index.html">Home</a></center>
+  <center><button onclick = "window.location.href="index.html";>Home</button></center>
   </nav>
     <br>
     <p>
-    <iframe src="http://www.freeonlinegames.com/embed/145570" width="640" height="427" frameborder="no" scrolling="no"></iframe>
+    <button onclick = "window.location.href="https://www.freeonlinegames.com/?ref=icon";>FOG</button>
     </p>
   </body>
   </html>
