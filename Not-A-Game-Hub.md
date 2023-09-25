@@ -22,6 +22,6 @@
       <br>
       <center><a class="BS" href="https://Neal.fun"> <button>Neal.Fun</button> </a></center>
       <br>
-      <center><a class="BS" href="sites.google.com/site/classroom6x"> <button>Random Unblocked</button> </a></center>
+      <center><a class="BS" href="sites.google.com/site/classroom6x/geometry-dash"> <button>Geometry Dash</button> </a></center>
   </body>
   </html>
