@@ -11,9 +11,9 @@
      margin-bottom:50px;
    }
    </style>
-    <title>Or This</title>
   </head>
     <body>
+    <title>Or This</title>
     
 <form action="index.html">
       <center><button type="submit" class="button" class="BS">HOME</button></center>
