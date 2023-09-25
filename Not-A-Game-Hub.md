@@ -24,5 +24,7 @@
       <center><a class="BS" href="https://wtool.org/adarkroom/"> <button>A Dark Room</button> </a></center>
       <br>
       <center><a class="BS" href="https://sites.google.com/site/classroom6x/"> <button>Some Unblocked Games</button> </a></center>
+      <br>
+      <center><a class="BS" href="https://codepen.io/killerek/full/oBqvLN"> <button>Farmer Idle Game</button> </a></center>
   </body>
   </html>
