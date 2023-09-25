@@ -15,7 +15,7 @@
     <body>
     
 <form action="index.html">
-      <center><button type="submit" class="button" class="TS">HOME</button></center>
+      <center><button type="submit" class="button" class="BS">HOME</button></center>
 </form>
       <br>
       <center><a class="BS" href="https://sites.google.com/view/googl-games/minecraft"> <button>Minecraft</button> </a></center>
