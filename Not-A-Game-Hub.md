@@ -8,7 +8,7 @@
      margin-top:50px;
    }
    .BS{
-     margin-bottom:100px;
+     margin-bottom:50px;
    }
    </style>
   </head>
