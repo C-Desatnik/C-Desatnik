@@ -13,8 +13,6 @@
    </style>
   </head>
     <body>
-    <title>Or This</title>
-    
 <form action="index.html">
       <center><button type="submit" class="button" class="BS">HOME</button></center>
 </form>
