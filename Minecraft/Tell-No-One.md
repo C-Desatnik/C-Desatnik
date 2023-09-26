@@ -4,8 +4,9 @@
       body{
         background-color:black;
       }
-      h1{
-        color:white;
+      iframe {
+    display: block;
+    border-style:none;
       }
       </style>
     <body>
