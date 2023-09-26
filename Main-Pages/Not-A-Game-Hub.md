@@ -37,7 +37,6 @@
 <form action="index.html">
       <center><button type="submit" class="button" class="BIG" class="BS">⌂</button></center>
 </form>
-      <center><p>______________________________________________________________</p></center>
       <br>
       <center><h1 class="BS">Redirects</h1></center>
       <center><a class="BS" href="https://Neal.fun"> <button class="Neal">🇳‌🇪‌🇦‌🇱‌.🇫‌🇺‌🇳‌</button> </a></center>
