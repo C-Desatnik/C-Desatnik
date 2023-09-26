@@ -6,7 +6,8 @@
       }
       iframe {
     display: block;
-    border-style:none;
+    border-style: none;
+    text-align: center;
       }
       </style>
     <body>
