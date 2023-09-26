@@ -10,7 +10,7 @@
         scrolling="no" 
         width="1500" 
         height="1000px"
-        style="margin-left:auto; margin-right:auto;">
+        style="margin-left:300px; margin-right:500px;">
       <br>
       <center><a class="BS" href="https://c-desatnik.github.io/Main-Pages/index.html"> <button>Home</button> </a></center>
       </body>
