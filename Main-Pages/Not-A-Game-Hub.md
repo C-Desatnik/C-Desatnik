@@ -17,15 +17,15 @@
       <center><button type="submit" class="button" class="BS">HOME</button></center>
 </form>
       <br>
-      <center><a class="BS" href="https://sites.google.com/view/googl-games/minecraft"> <button>Minecraft</button> </a></center>
+      <center><a class="BS" href="https://sites.google.com/view/googl-games/minecraft"> <button>🅜🅘🅝🅔🅒🅡🅐🅕🅣</button> </a></center>
       <br>
-      <center><a class="BS" href="https://Neal.fun"> <button>Neal.Fun</button> </a></center>
+      <center><a class="BS" href="https://Neal.fun"> <button>🇳‌🇪‌🇦‌🇱‌.🇫‌🇺‌🇳‌</button> </a></center>
       <br>
-      <center><a class="BS" href="https://wtool.org/adarkroom/"> <button>A Dark Room</button> </a></center>
+      <center><a class="BS" href="https://wtool.org/adarkroom/"> <button>𝔸 𝔻𝕒𝕣𝕜 ℝ𝕠𝕠𝕞</button> </a></center>
       <br>
-      <center><a class="BS" href="https://codepen.io/killerek/full/oBqvLN"> <button>Farmer Idle Game</button> </a></center>
+      <center><a class="BS" href="https://codepen.io/killerek/full/oBqvLN"> <button>🅵🅰🆁🅼🅴🆁 🅸🅳🅻🅴 🅶🅰🅼🅴</button> </a></center>
       <br>
-      <center><a class="BS" href="https://c-desatnik.github.io/Button-Game/Button1"> <button>Button Game</button> </a></center>
+      <center><a class="BS" href="https://c-desatnik.github.io/Button-Game/Button1"> <button>🄱🅄🅃🅃🄾🄽 🄶🄰🄼🄴</button> </a></center>
   </body>
   </html>
  
