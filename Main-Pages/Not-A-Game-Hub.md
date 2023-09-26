@@ -25,11 +25,14 @@
    .Button{
      background-color: #f70505;
    }
+   .BIG{
+     font-size:40px;
+   }
    </style>
   </head>
     <body>
 <form action="index.html">
-      <center><button type="submit" class="button" class="BS">HOME</button></center>
+      <center><button type="submit" class="button" class="BIG" class="BS">⌂</button></center>
 </form>
       <br>
       <center><a class="BS" href="https://sites.google.com/view/googl-games/minecraft"> <button class="Minecraft">🅜🅘🅝🅔🅒🅡🅐🅕🅣</button> </a></center>
