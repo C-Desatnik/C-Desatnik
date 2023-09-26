@@ -37,6 +37,7 @@
 <form action="index.html">
       <center><button type="submit" class="button" class="BIG" class="BS">⌂</button></center>
 </form>
+      <br>
       <center><h1 class="BS">Redirects</h1></center>
       <br>
       <center><a class="BS" href="https://Neal.fun"> <button class="Neal">🇳‌🇪‌🇦‌🇱‌.🇫‌🇺‌🇳‌</button> </a></center>
@@ -46,6 +47,7 @@
       <center><a class="BS" href="https://codepen.io/killerek/full/oBqvLN"> <button class="Farm">🅵🅰🆁🅼🅴🆁 🅸🅳🅻🅴 🅶🅰🅼🅴</button> </a></center>
       <br>
       <center><a class="BS" href="https://c-desatnik.github.io/Button-Game/Button1"> <button class="Button">🄱🅄🅃🅃🄾🄽 🄶🄰🄼🄴</button> </a></center>
+      <br>
       <br>
       <center><h1 class="TS" class="BS">Embeds/Pages</h1></center>
       <br>
