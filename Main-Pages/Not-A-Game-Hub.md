@@ -45,8 +45,6 @@
       <br>
       <center><a class="BS" href="https://codepen.io/killerek/full/oBqvLN"> <button class="Farm">🅵🅰🆁🅼🅴🆁 🅸🅳🅻🅴 🅶🅰🅼🅴</button> </a></center>
       <br>
-      <center><a class="BS" href="https://c-desatnik.github.io/Button-Game/Button1"> <button class="Button">🄱🅄🅃🅃🄾🄽 🄶🄰🄼🄴</button> </a></center>
-      <br>
       <center><h1 class="TS" class="BS">Embeds/Pages</h1></center>
       <center><a class="BS" href="https://sites.google.com/view/googl-games/minecraft"> <button class="Minecraft">🅜🅘🅝🅔🅒🅡🅐🅕🅣</button> </a></center>
       <br>
