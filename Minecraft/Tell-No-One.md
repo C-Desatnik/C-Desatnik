@@ -6,9 +6,9 @@
       }
       </style>
     <body>
-      <p>
+      <center><p>
 <iframe src="https://sd592g.github.io/zj684od4lfg/" name="myIFrame" scrolling="no" width="1500" height="1000px"></iframe>
-      </p>
+      </p></center>
     </body>
   </head>
 </html>
