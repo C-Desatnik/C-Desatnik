@@ -10,6 +10,7 @@
         scrolling="no" 
         width="1500" 
         height="1000px"></center>
+      <br>
       <center><a class="BS" href="https://c-desatnik.github.io/Main-Pages/index.html"> <button>Home</button> </a></center>
       </body>
   </head>
