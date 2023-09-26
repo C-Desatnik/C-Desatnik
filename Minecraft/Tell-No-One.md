@@ -4,6 +4,9 @@
       body{
         background-color:black;
       }
+      h1{
+        color:white;
+      }
       </style>
     <body>
       <center><p>
