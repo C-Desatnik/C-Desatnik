@@ -17,7 +17,7 @@
      background-color: #11165c;
    }
    .Farm{
-     background-color: #3b8a2b;
+     background-color: #2596be;
    }
    .Dark{
      background-color: #a19a99;
