@@ -11,13 +11,13 @@
      margin-bottom:50px;
    }
    .Minecraft{
-     background-color: #2b4f24;
+     background-color: #289e31;
    }
    .Neal{
-     background-color: #99cc21;
+     background-color: #11165c;
    }
    .Farm{
-     background-color: #89d631;
+     background-color: #3b8a2b;
    }
    .Dark{
      background-color: #a19a99;
