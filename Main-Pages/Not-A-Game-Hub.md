@@ -26,7 +26,7 @@
      background-color: #f70505;
    }
    .BIG{
-     font-size:40px;
+     font-size: 100px;
    }
    </style>
   </head>
