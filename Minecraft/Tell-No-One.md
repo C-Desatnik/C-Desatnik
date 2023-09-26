@@ -4,16 +4,11 @@
       body{
         background-color:black;
       }
-      iframe {
-    display: block;
-    border-style: none;
-    text-align: center;
-      }
       </style>
     <body>
-      <center><p align="center">
+      <div align="center">
 <iframe src="data:,iframe" src="https://sd592g.github.io/zj684od4lfg/" name="myIFrame" scrolling="no" width="1500" height="1000px"></iframe>
-      </p></center>
+      </div>
     </body>
   </head>
 </html>
