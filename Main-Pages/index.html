@@ -3,36 +3,21 @@
     <head>
         <script>
         function create() {
-          var urlObj = new window.URL(window.location.href);
-var url = &quot;https://sd592g.github.io/zj684od4lfg/&quot;;
-if (url) {
-var win;
-document.querySelector(&#39;button&#39;).onclick = function() {
-if (win) {
-win.focus();
-} else {
-win = window.open();
-win.document.body.style.margin = &#39;0&#39;;
-win.document.body.style.height = &#39;100vh&#39;;
-var iframe = win.document.createElement(&#39;iframe&#39;);
-iframe.style.border = &#39;none&#39;;
-iframe.style.width = &#39;100%&#39;;
-iframe.style.height = &#39;100%&#39;;
-iframe.style.margin = &#39;0&#39;;
-iframe.src = url;
-win.document.body.appendChild(iframe);
-var interval = setInterval(function() {
-if (win.closed) {
-clearInterval(interval);
-win = undefined;
-}
-}, 500);
-}
-};
-}
-      </script>
+            var url = document.getElementById('input').value;
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+        </script>
 <style>
-  body{
+        body{
           background-color:black;
         }
         h1{
