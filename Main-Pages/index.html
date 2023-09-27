@@ -1,17 +1,69 @@
 <DOCTYPE html>
   <html>
     <head>
-        <script>
-        function opengame() {
-        var win = window.open()
-        var url = "https://c-desatnik.github.io/Main-Pages/index.html"
-        var iframe = win.document.createElement('iframe').value
-        iframe.style.width = "100%";
-        iframe.style.length = "100%";
-        iframe.style.border = "none";
-        win.document.body.appendchild(iframe)
-        }
-        </script>
+<a href="http://google.com" class="masked" >Clicking to google</a> ||
+<a href="http://yahoo.com" class="masked-differently" id="yahooLink" target="_blank">Clicking to yahoo</a>
+<script type="text/javascript">
+    (
+        function(root,factory){
+            root.maskReferer = factory();
+
+        }(this,function() {
+            var that = this;
+            var handleClick = function(event) {
+                event.preventDefault();
+
+                var tag = event.srcElement || event.target;
+
+                var href = tag.getAttribute("href");
+                var location = getLocation(href);
+                if(tag.getAttribute("target") == "_blank") {
+                    var newWindow = that.open("about:blank","_blank");
+                    newWindow.location = location;
+                } else {
+                    that.location = location;
+                }
+            };
+
+            var getLocation = function(href) {
+                var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+                // At least Safari 3+: "[object HTMLElementConstructor]"
+                var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
+
+                if(isChrome || isSafari) {
+                    return "data:text/html,"+"<scr"+"ipt>location='" + href + "'</scr"+"ipt>";
+                }
+
+                var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+                // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+                var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+                if(isFirefox || isOpera) {
+                    return   "data:text/html,"+"<"+"html><meta http-equiv=\"refresh\" content=\"0; url='"+ href +"'\"><\/html>";
+                }
+                return href;
+            };
+            var maskReferer = function(elements) {
+                if(elements.ELEMENT_NODE == 1) {
+                    elements.addEventListener("click", handleClick);
+                } else {
+
+                    Array.prototype.forEach.call(elements, function (el) {
+                        // Do stuff with the element
+                        el.addEventListener("click", handleClick);
+                    });
+                }
+            };
+            return maskReferer;
+        })
+    )
+</script>
+
+    <script type="text/javascript" >
+    maskReferer(document.getElementsByClassName("masked"));
+    maskReferer(document.getElementById("yahooLink"));
+
+
+</script>
 <style>
         body{
           background-color:black;
