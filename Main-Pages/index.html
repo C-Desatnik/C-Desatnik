@@ -1,69 +1,6 @@
 <DOCTYPE html>
   <html>
     <head>
-<a href="http://google.com" class="masked" >Clicking to google</a> ||
-<a href="http://yahoo.com" class="masked-differently" id="yahooLink" target="_blank">Clicking to yahoo</a>
-<script type="text/javascript">
-    (
-        function(root,factory){
-            root.maskReferer = factory();
-
-        }(this,function() {
-            var that = this;
-            var handleClick = function(event) {
-                event.preventDefault();
-
-                var tag = event.srcElement || event.target;
-
-                var href = tag.getAttribute("href");
-                var location = getLocation(href);
-                if(tag.getAttribute("target") == "_blank") {
-                    var newWindow = that.open("about:blank","_blank");
-                    newWindow.location = location;
-                } else {
-                    that.location = location;
-                }
-            };
-
-            var getLocation = function(href) {
-                var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-                // At least Safari 3+: "[object HTMLElementConstructor]"
-                var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
-
-                if(isChrome || isSafari) {
-                    return "data:text/html,"+"<scr"+"ipt>location='" + href + "'</scr"+"ipt>";
-                }
-
-                var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-                // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
-                var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
-                if(isFirefox || isOpera) {
-                    return   "data:text/html,"+"<"+"html><meta http-equiv=\"refresh\" content=\"0; url='"+ href +"'\"><\/html>";
-                }
-                return href;
-            };
-            var maskReferer = function(elements) {
-                if(elements.ELEMENT_NODE == 1) {
-                    elements.addEventListener("click", handleClick);
-                } else {
-
-                    Array.prototype.forEach.call(elements, function (el) {
-                        // Do stuff with the element
-                        el.addEventListener("click", handleClick);
-                    });
-                }
-            };
-            return maskReferer;
-        })
-    )
-</script>
-
-    <script type="text/javascript" >
-    maskReferer(document.getElementsByClassName("masked"));
-    maskReferer(document.getElementById("yahooLink"));
-
-
-</script>
 <style>
         body{
           background-color:black;
@@ -95,9 +32,6 @@
       <center><h3><font color=red>(I have no clue what I'm doing btw)</font></h3></center> 
       <center><h2>If you click the button below, it will take you to a list of games that are not blocked yet</h2></center> 
         <center><p class="BS">(If a game listed gets blocked or, if you find a new game or website that you think should be featured on this site, let me know)</p></center>
-      <br>
-        <center><button onclick="opengame()">DONT TRUST BUTTON</button></center>
-      <br>
 <center><a href="https://c-desatnik.github.io/Main-Pages/Not-A-Game-Hub.html?"> <button>Click me</button></a></center>
     </body>
   </html>
