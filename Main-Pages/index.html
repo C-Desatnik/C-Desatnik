@@ -25,7 +25,7 @@
           margin-bottom: 100px;
         }
         </style>
-      <title>about:blank | 3kh0</title>
+      <title>about:blank</title>
     </head>
     <body>
       <center><h1>Welcome To Game Hub</h1></center>
@@ -40,16 +40,16 @@
             win.document.body.style.margin = '0';
             win.document.body.style.height = '100vh';
             var iframe = win.document.createElement('iframe');
+            iframe.src = url;
             iframe.style.border = 'none';
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.margin = '0';
-            iframe.src = url;
             win.document.body.appendChild(iframe);
         }
         </script></center>
-        <input type="text" value="https://www.google.com/" placeholder="https://google.com" id='input' autofocus>
-        <button onclick='create()'>Embed</button>
+        <center><input type="text" value="https://www.google.com/" placeholder="https://google.com" id='input' autofocus>
+        <button onclick='create()'>Go!</button></center>
 <center><a href="https://c-desatnik.github.io/Main-Pages/Not-A-Game-Hub.html?"> <button>Click me</button></a></center>
     </body>
   </html>
